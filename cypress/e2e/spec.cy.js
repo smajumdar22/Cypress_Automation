@@ -1,6 +1,6 @@
 describe('template spec', () => {
   it('Visits para bank', () => {
-    cy.visit('https://parabank.parasoft.com/')
+    cy.visit('/')
     // expect(true).to.equal(false)
     cy.contains('Forgot log').click();
     cy.url().should('include','lookup');
